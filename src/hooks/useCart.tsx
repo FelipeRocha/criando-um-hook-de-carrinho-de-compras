@@ -31,12 +31,6 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
 
     return [];
   });
-  // const [stock, setStock] = useState<Stock[]>([])
-
-  // useEffect(() => {
-  //   api.get('/stock')
-  //     .then(response => setStock(response.data))
-  // }, []);
 
   const addProduct = async (productId: number) => {
     try {
